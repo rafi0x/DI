@@ -1,0 +1,11 @@
+### post user
+POST http://localhost:5050/api/add
+Content-Type: application/json
+
+{
+    "username": "test",
+    "password": "test"
+}
+
+### get user
+GET http://localhost:5050/api/get
